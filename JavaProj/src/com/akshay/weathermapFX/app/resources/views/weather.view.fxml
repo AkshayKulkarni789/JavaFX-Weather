@@ -69,7 +69,7 @@
                               <Font name="Tahoma" size="20.0" />
                            </font>
                         </Label>
-                        <Label fx:id="text_City" text="Sicklerville, New Jersey " textFill="#a2a9ad">
+                        <Label fx:id="text_City" text="Chennai, India " textFill="#a2a9ad">
                            <font>
                               <Font name="Tahoma" size="14.0" />
                            </font>
