@@ -109,9 +109,9 @@ public class MainController implements Initializable{
         
         try {
             
-           String apiKey="*****";
+           String apiKey="00526db8cd510a6274eda542cecdc971";
            this.dataService = DataServiceFactory.getWeatherService(DataServiceFactory.service.OPEN_WEATHER_MAP,apiKey);
-           CurrentWeather data = dataService.GET_CURRENT_WEATHER_DATA_BY_CITY_NAME("Constantine");
+           CurrentWeather data = dataService.GET_CURRENT_WEATHER_DATA_BY_CITY_NAME("Chennai");
          
          
             text_City.setText(data.getName()+", "+data.getSys().getCountry());
